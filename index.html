@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chrismas Karnaugh Map</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>My chrismas gift for you</h1>
+
+    <p class="term"><span></span></p>
+
+    <table class="km">
+      <tr>
+        <th></th>
+        <th>A</th>
+        <th>A</th>
+        <th>&not;A</th>
+        <th>&not;A</th>
+        <th></th>
+      </tr>
+      <tr>
+        <th>B</th>
+        <td data-bin="1111"></td>
+        <td data-bin="1101"></td>
+        <td data-bin="0101"></td>
+        <td data-bin="0111"></td>
+        <th>D</th>
+      </tr>
+      <tr>
+        <th>B</th>
+        <td data-bin="1110"></td>
+        <td data-bin="1100"></td>
+        <td data-bin="0100"></td>
+        <td data-bin="0110"></td>
+        <th>&not;D</th>
+      </tr>
+      <tr>
+        <th>&not;B</th>
+        <td data-bin="1010"></td>
+        <td data-bin="1000"></td>
+        <td data-bin="0000"></td>
+        <td data-bin="0010"></td>
+        <th>&not;D</th>
+      </tr>
+      <tr>
+        <th>&not;B</th>
+        <td data-bin="1011"></td>
+        <td data-bin="1001"></td>
+        <td data-bin="0001"></td>
+        <td data-bin="0011"></td>
+        <th>D</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th>C</th>
+        <th>&not;C</th>
+        <th>&not;C</th>
+        <th>C</th>
+        <th></th>
+      </tr>
+    </table>
+    <p class="help">
+      <span>Click on the cells to toggle between 0 and 1.</span>
+    </p>
+    <div class="win">
+      <div class="tree">🎄</div>
+      <p><span>Merry chrismas to you!</span></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
